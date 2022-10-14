@@ -5,7 +5,7 @@
  * main - a program that prints the alphabet in lowercase, followed by a new \
  * line.
  *
- *Return: Goal achieved
+ *Return: SUCCESS
  */
 int main(void)
 {
@@ -15,6 +15,7 @@ for (c = 'a'; c <= 'z'; c++)
 while ((c = !'q' && c != 'e'))
 {
 putchar (c);
+++c;
 }
 }
 putchar('\n');
